@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.card input,
+.card button {
+    display: block;
+    width: 100%;
+    margin-top: 0.75rem;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card button {
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.card button:hover {
+    background-color: #1e40af;
+}
+
+.funcionario {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.funcionario span {
+    font-weight: bold;
+}
+
+.funcionario button {
+    margin-left: 0.5rem;
+    width: auto;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
