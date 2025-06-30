@@ -9,7 +9,7 @@
 
 ## Instalação
 ```bash
-git clone <repo>
+git clone https://github.com/jdbilia/funcionarios.git
 cd funcionarios
 composer install
 cp .env.example .env
